@@ -24,4 +24,3 @@ run plot_data.py
         sys.argv[1] = name of graphics file to create
 
 *This COVID-19 Data is no longer collected*
-
