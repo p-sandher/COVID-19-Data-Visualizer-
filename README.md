@@ -23,4 +23,4 @@ run plot_data.py
         sys.argv[0] = name of file to read
         sys.argv[1] = name of graphics file to create
 
-*This COVID-19 Data is no longer collected*
+*This COVID-19 Data is no longer collected by the Government of Saskatchewan*
