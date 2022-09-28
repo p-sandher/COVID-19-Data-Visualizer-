@@ -1,56 +1,42 @@
-# Project Title
+# COVID-19 Data Visualizer
 
-Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+COVID-19-Data-Visualizer is a Python program that displays and compares COVID-19 vaccination rates and cases of two regions in Saskatchewan, Canada from a start and end date. This project is used to compare, contrast and find patterns of the attitudes of Saskatchewanians towards vaccines because of the number of COVID-19 Cases.
+
+Note: This COVID-19 Data is no longer collected by the Government of Saskatchewan
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+Python Libraries Used: datetime, pandas, seaborn and matplotlib.
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ### Executing program
 
 * How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
 
-## Help
+1. Preprocess data of COVID-19 Cases and Vaccination Rates in SK(not required, files are already availble in repo)
+run preprocess_data.py <dataFileName.csv>
+2. Collect parameters for visualization (regions and start and end date) run plot_data.py sys.argv[1] = name of SK cases data file sys.argv[2] = name of SK vaccine data file
+3. plot data run plot_data.py Commandline Parameters: 2 sys.argv[0] = name of file to read sys.argv[1] = name of graphics file to create
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
-Contributors names and contact info
+Puneet Sandher 
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [PUNEET SANDHER] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
